@@ -39,7 +39,14 @@
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Log In"
-        android:backgroundTint="#6200EE"/>
+        android:text="Log In" />
+
+    <!-- 新增Cancel按钮 Commit003 -->
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="16dp"/>
 
 </LinearLayout>
